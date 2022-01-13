@@ -1,6 +1,6 @@
 <script> 
 
-    var segredos = [Math.round(Math.random)];
+    var numero = [Math.round(Math.random)];
 
     var input = document.querySelector("input");
     input.focus();
@@ -9,9 +9,9 @@
          
         var achou = false;
 
-        for(var posicao = 0; posicao < segredos.length; posicao++) {
+        for(var posicao = 0; posicao < numero.length; posicao++) {
 
-            if(input.value == segredos [posicao]) {
+            if(input.value == numero [posicao]) {
 
                alert("Voce ACERTOU");
                achou = true;
